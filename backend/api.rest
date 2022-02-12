@@ -1,0 +1,33 @@
+###
+GET http://localhost:3000/
+###
+POST http://localhost:3000/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "summary": "hello",
+    "img": "hello",
+    "assignee": "heelo",
+    "workflow": "hello",
+    "review": "hello",
+    "createdAt": "hello",
+    "reviews": "hello"
+}
+
+###
+PUT http://localhost:3000/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "2",
+    "summary": "hellooooo",
+    "img": "hello",
+    "assignee": "heelo",
+    "workflow": "hello",
+    "review": "hello",
+    "createdAt": "hello",
+    "reviews": "hello"
+}
+
+###
+DELETE http://localhost:3000/?id=2 HTTP/1.1
